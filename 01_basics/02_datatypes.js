@@ -20,3 +20,4 @@ let isLoggedIn = false
 
 //console.log(typeof "undefined"); //outpur=> undefined
 //console.log(typeof "null"); //outpur=> Object
+
