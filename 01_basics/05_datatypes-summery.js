@@ -27,8 +27,26 @@ let myObj={
 }
 
 const myFunction = function(){
-    console.log("Hello World");
+    //console.log("Hello World");
 }
 
-console.log(typeof bigNumber)
+//console.log(typeof bigNumber)
 
+//+++++++++++++++++++++++++++++++++++
+
+// Stack memory(Primitive), Heap memory(Non-Primitive)
+
+let myYoutubename = "dilipRj"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+    email: "dilipraushan@gmail.com",
+    upi : "user@yeb"
+}
+let userTwo = userOne
+userTwo.email="dilipraushan@yahoo.com"
+console.log(userOne.email)
+console.log(userTwo.email)
