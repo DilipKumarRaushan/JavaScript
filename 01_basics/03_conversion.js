@@ -27,4 +27,16 @@ console.log(booleanIsLoggedin)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
+//console.log(typeof stringNumber);
+
+//-----------------------Operation-------------------
+
+let value = 3
+let negValue = -value
+//console.log(negValue);
+
+// console.log("1"+2)//outpur=>12
+// console.log(1+"2")//output=>12
+// console.log("1"+2+2)//outpur=>122
+// console.log(1+2+"2")//output=>32
+// console.log((3+4)*5%3)
