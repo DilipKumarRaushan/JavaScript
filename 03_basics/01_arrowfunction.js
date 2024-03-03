@@ -6,22 +6,22 @@ const user = {
       console.log(this)
     }
 }
-// user.welcomeMessage()
+//user.welcomeMessage()
 // user.username = "Raushan"
 // user.welcomeMessage()
 //console.log(this);
 
-// function chai(){
+// function chaiTwo(){
 //     let username = "dilip"
 //     console.log(this.username);
 // }
-// chai()
+// chaiTwo()
 
-// const chai = function(){
+// const chaiOne = function(){
 //     let username = "dilip"
 //     console.log(this.username)
 // }
-// chai()
+// chaiOne()
 
 // const chai = ()=>{
 //     let username="dilip"
@@ -39,7 +39,7 @@ const user = {
 // const addTwo = (num1,num2)=>num1 + num2
 // console.log(addTwo(17,13))
 
-const addTwo = (name)=>
+//const addTwo = (name)=>
 
 // const addTwo = (num1,num2)=>(num1 + num2)
 // console.log(addTwo(3,4))
@@ -49,5 +49,7 @@ const addTwo = (name)=>
 
 // const addOne = (username,age,roll)=>({username:"dilip",age:30,roll:8})
 // console.log(addOne());
+
+
 
 
