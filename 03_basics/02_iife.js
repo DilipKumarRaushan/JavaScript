@@ -5,7 +5,10 @@
 //     console.log("DB CONNECTED");
 // })();
 
+
+
 // Un-named IIFE
-((name)=>{
- console.log(`DB CONNECTED TWO ${name}`);
-})("Dilip Kumar Raushan");
+// ((name)=>{
+//  console.log(`DB CONNECTED TWO ${name}`);
+// })("Dilip Kumar Raushan");
+
