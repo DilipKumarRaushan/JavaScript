@@ -6,8 +6,8 @@ const myNums = [1,2,3,4,5,6]
 // }, 0)
 // console.log(myTotal);
 
-const myTotal = myNums.reduce((acc,curr)=>acc+curr, 0)
-console.log(myTotal)
+// const myTotal = myNums.reduce((acc,curr)=>acc+curr, 0)
+// console.log(myTotal)
 
 const shoppingCart = [
     {
@@ -28,5 +28,5 @@ const shoppingCart = [
     },
 ]
 
-const priceToPay = shoppingCart.reduce((acc,item)=>acc + item.name,0)
+const priceToPay = shoppingCart.reduce((acc,item)=>acc + item.price,0)
 console.log(priceToPay)
