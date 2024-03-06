@@ -1,15 +1,18 @@
 // for of
-
-// const arr = [1,2,3,4,5,6,7,8]
+const arr = [1,2,3,4,5,6,7,8]
 
 // for (const num of arr) {
 //     console.log(num);
 // }
 
+
+
 // const greetings = "Hello world!"
 // for (const greet of greetings) {
 //     console.log(`each char. is ${greet}`);
 // }
+
+
 
 // Maps
 
@@ -20,9 +23,10 @@ map.set('FR',"France")
 
 //console.log(map);
 
-for (const [key, value] of map) {
-    console.log(key, ":-" , value);
-}
+// for (const [key, value] of map) {
+//     console.log(key, ":-" , value);
+// }
+
 
 const myObject = {
     "game1":"NFS",
@@ -31,3 +35,4 @@ const myObject = {
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value)
 // }
+

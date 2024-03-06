@@ -4,11 +4,14 @@ const coding = ['js','ruby','java','python','cpp']
 //     console.log(item);
 // })
 
+
 // callback function
 
 // coding.forEach((item)=>{
 //     console.log(item);
 // })
+
+
 
 // function printMe(item) {
 //  console.log(item);   
@@ -34,7 +37,8 @@ const myCoding = [
     }
 ]
  
-myCoding.forEach((item) => {
+// myCoding.forEach((item) => {
 
-   console.log(`${item.languageFileName} short syntex ${item.languageName}`) 
-});
+//    console.log(`${item.languageFileName} short syntex ${item.languageName}`) 
+// });
+
