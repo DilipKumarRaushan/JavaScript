@@ -11,12 +11,27 @@
     <button id="start">Start</button>
 </body>
 <script>
-    const sayDate = function(str){
-        //console.log(str,Date.now())
-    }
-    const intervalId = setInterval(sayDate,2000,"hi")
 
-    
+let intervalId;
+const startChangingName = function(){
+    if(!intervalId){
+        intervalId = setInterval(changeName,1000)
+    }
+
+   function changeName(){
+    console.log("Dilip Kumar Raushan")
+   }
+}
+const stopeChangingName = function(){
+    clearInterval(intervalId);
+    intervalId = null;
+}
+
+document.querySelector("#start").addEventListener('click',startChangingName)
+
+document.querySelector("#stop").addEventListener('click',stopeChangingName)
+
+
     
     
 
